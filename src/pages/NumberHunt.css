@@ -1,0 +1,91 @@
+.gameContainer {
+    display: flex;
+    flex-direction: column;
+    width: 426px;
+    height: 508px;
+    border-radius: 10px;
+    border: 1px solid #d8d8d8;
+    padding: 40px;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: linear-gradient(to right, #ff8a00, #e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    display: block;
+}
+
+.inputWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.label {
+    margin-right: 14px;
+    font-size: 16px;
+}
+
+.boxContainer {
+    margin-top: 30px;
+    display: flex;
+    width: 426px;
+    height: 444px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.messageBox {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.error,
+.win {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.error {
+    color: #f44336;
+}
+
+.win {
+    color: #60b91f;
+}
+
+.playAgain {
+    height: 30px;
+    width: 180px;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 12px 24px;
+    font-weight: 600;
+    background-image: linear-gradient(to top left, #ff8a00, #e52e71);
+    color: #fff;
+}
